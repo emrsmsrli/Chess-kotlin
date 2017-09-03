@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="playButton" layoutX="81.0" layoutY="41.0" mnemonicParsing="false" text="Play" />
+            <Button fx:id="controlsButton" layoutX="70.0" layoutY="73.0" mnemonicParsing="false" text="Controls" />
+            <Button fx:id="loadButton" layoutX="79.0" layoutY="104.0" mnemonicParsing="false" text="Load" />
+            <Button fx:id="quitButton" layoutX="81.0" layoutY="135.0" mnemonicParsing="false" text="Quit" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
